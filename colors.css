@@ -1,0 +1,479 @@
+body {
+    --saturation: 90%;
+    --lightness: 70%;
+    /* 280
+    500 */
+}
+
+.c0 {
+    background-color: hsl(0, var(--saturation), var(--lightness));
+}
+
+.c1 {
+    background-color: hsl(1, var(--saturation), var(--lightness));
+}
+
+.c2 {
+    background-color: hsl(2, var(--saturation), var(--lightness));
+}
+
+.c3 {
+    background-color: hsl(3, var(--saturation), var(--lightness));
+}
+
+.c4 {
+    background-color: hsl(4, var(--saturation), var(--lightness));
+}
+
+.c5 {
+    background-color: hsl(5, var(--saturation), var(--lightness));
+}
+
+.c6 {
+    background-color: hsl(6, var(--saturation), var(--lightness));
+}
+
+.c7 {
+    background-color: hsl(7, var(--saturation), var(--lightness));
+}
+
+.c8 {
+    background-color: hsl(8, var(--saturation), var(--lightness));
+}
+
+.c9 {
+    background-color: hsl(9, var(--saturation), var(--lightness));
+}
+
+.c10 {
+    background-color: hsl(10, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c12 {
+    background-color: hsl(12, var(--saturation), var(--lightness));
+}
+
+.c13 {
+    background-color: hsl(13, var(--saturation), var(--lightness));
+}
+
+.c14 {
+    background-color: hsl(14, var(--saturation), var(--lightness));
+}
+
+.c15 {
+    background-color: hsl(15, var(--saturation), var(--lightness));
+}
+
+.c16 {
+    background-color: hsl(16, var(--saturation), var(--lightness));
+}
+
+.c17 {
+    background-color: hsl(17, var(--saturation), var(--lightness));
+}
+
+.c18 {
+    background-color: hsl(18, var(--saturation), var(--lightness));
+}
+
+.c19 {
+    background-color: hsl(19, var(--saturation), var(--lightness));
+}
+
+.c20 {
+    background-color: hsl(20, var(--saturation), var(--lightness));
+}
+
+.c21 {
+    background-color: hsl(21, var(--saturation), var(--lightness));
+}
+
+.c22 {
+    background-color: hsl(22, var(--saturation), var(--lightness));
+}
+
+.c23 {
+    background-color: hsl(23, var(--saturation), var(--lightness));
+}
+
+.c24 {
+    background-color: hsl(24, var(--saturation), var(--lightness));
+}
+
+.c25 {
+    background-color: hsl(25, var(--saturation), var(--lightness));
+}
+
+.c26 {
+    background-color: hsl(26, var(--saturation), var(--lightness));
+}
+
+.c27 {
+    background-color: hsl(27, var(--saturation), var(--lightness));
+}
+
+.c28 {
+    background-color: hsl(28, var(--saturation), var(--lightness));
+}
+
+.c29 {
+    background-color: hsl(29, var(--saturation), var(--lightness));
+}
+
+.c30 {
+    background-color: hsl(30, var(--saturation), var(--lightness));
+}
+
+.c31 {
+    background-color: hsl(31, var(--saturation), var(--lightness));
+}
+
+.c32 {
+    background-color: hsl(32, var(--saturation), var(--lightness));
+}
+
+.c33 {
+    background-color: hsl(33, var(--saturation), var(--lightness));
+}
+
+.c34 {
+    background-color: hsl(34, var(--saturation), var(--lightness));
+}
+
+.c35 {
+    background-color: hsl(35, var(--saturation), var(--lightness));
+}
+
+.c36 {
+    background-color: hsl(36, var(--saturation), var(--lightness));
+}
+
+.c37 {
+    background-color: hsl(37, var(--saturation), var(--lightness));
+}
+
+.c38 {
+    background-color: hsl(38, var(--saturation), var(--lightness));
+}
+
+.c39 {
+    background-color: hsl(39, var(--saturation), var(--lightness));
+}
+
+.c40 {
+    background-color: hsl(40, var(--saturation), var(--lightness));
+}
+
+.c41 {
+    background-color: hsl(41, var(--saturation), var(--lightness));
+}
+
+.c42 {
+    background-color: hsl(42, var(--saturation), var(--lightness));
+}
+
+.c43 {
+    background-color: hsl(43, var(--saturation), var(--lightness));
+}
+
+.c44 {
+    background-color: hsl(44, var(--saturation), var(--lightness));
+}
+
+.c45 {
+    background-color: hsl(45, var(--saturation), var(--lightness));
+}
+
+.c46 {
+    background-color: hsl(46, var(--saturation), var(--lightness));
+}
+
+.c47 {
+    background-color: hsl(47, var(--saturation), var(--lightness));
+}
+
+.c48 {
+    background-color: hsl(48, var(--saturation), var(--lightness));
+}
+
+.c49 {
+    background-color: hsl(49, var(--saturation), var(--lightness));
+}
+
+.c50 {
+    background-color: hsl(50, var(--saturation), var(--lightness));
+}
+
+.c51 {
+    background-color: hsl(51, var(--saturation), var(--lightness));
+}
+
+.c52 {
+    background-color: hsl(52, var(--saturation), var(--lightness));
+}
+
+.c53 {
+    background-color: hsl(53, var(--saturation), var(--lightness));
+}
+
+.c54 {
+    background-color: hsl(54, var(--saturation), var(--lightness));
+}
+
+.c55 {
+    background-color: hsl(55, var(--saturation), var(--lightness));
+}
+
+.c56 {
+    background-color: hsl(56, var(--saturation), var(--lightness));
+}
+
+.c57 {
+    background-color: hsl(57, var(--saturation), var(--lightness));
+}
+
+.c58 {
+    background-color: hsl(58, var(--saturation), var(--lightness));
+}
+
+.c59 {
+    background-color: hsl(59, var(--saturation), var(--lightness));
+}
+
+.c60 {
+    background-color: hsl(60, var(--saturation), var(--lightness));
+}
+
+.c61 {
+    background-color: hsl(61, var(--saturation), var(--lightness));
+}
+
+.c62 {
+    background-color: hsl(62, var(--saturation), var(--lightness));
+}
+
+.c63 {
+    background-color: hsl(63, var(--saturation), var(--lightness));
+}
+
+.c64 {
+    background-color: hsl(64, var(--saturation), var(--lightness));
+}
+
+.c65 {
+    background-color: hsl(65, var(--saturation), var(--lightness));
+}
+
+.c66 {
+    background-color: hsl(66, var(--saturation), var(--lightness));
+}
+
+.c67 {
+    background-color: hsl(67, var(--saturation), var(--lightness));
+}
+
+.c68 {
+    background-color: hsl(68, var(--saturation), var(--lightness));
+}
+
+.c69 {
+    background-color: hsl(69, var(--saturation), var(--lightness));
+}
+
+.c70 {
+    background-color: hsl(70, var(--saturation), var(--lightness));
+}
+
+.c71 {
+    background-color: hsl(71, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+
+.c11 {
+    background-color: hsl(11, var(--saturation), var(--lightness));
+}
+

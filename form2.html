@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+
+<body>
+    <form id="worksheet">
+        <p>First name:
+            <input type="text" id="firstname" oninput="fioClick()"></p>
+        <p>Last name:
+            <input type="text" id="lastname" oninput="fioClick()"></p>
+        <p id="fio"></p>
+        <p>Id:
+            <input type="text" id="myid" oninput="showInnerHTML()"></p>
+        <p id="showid"></p>
+        <p>User password:
+            <input type="password" placeholder="Your password" required>
+        </p>
+
+        <p><input type="radio" name="familie" value="firstname" oninput="showName(event)">
+            First name
+        </p>
+        <p><input type="radio" name="familie" value="lastname" oninput="showName(event)">
+            Last name
+        </p>
+
+        <p><input type="checkbox" id="fcheckbox" oninput="showNames()">
+            First name
+        </p>
+        <p><input type="checkbox" id="lcheckbox" oninput="showNames()">
+            Last name
+        </p>
+
+        <p>Year of birth?
+            <input type="date" min="1920-12-31" max="2010-01-02">
+        </p>
+        <p>What kind of car do you prefer?
+            <select>
+                <option>Volvo</option>
+                <option>Saab</option>
+                <option selected>Fiat</option>
+            </select>
+        </p>
+
+        <p>What browser are you using?
+            <p><input type="radio" name="lists" value="browsers" id="listbrowsers" oninput="showLists(event)">
+                List Browsers
+            </p>
+            <p><input type="radio" name="lists" value="family" id="listfamily" oninput="showLists(event)">
+                List Family
+            </p>
+            <input list="mylist" id="showlisthere">
+            <datalist id="mylist">
+            </datalist>
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <datalist id="family">
+                <option value="Papa">
+                <option value="Mama">
+                <option value="Nastia">
+                <option value="Sasha">
+                <option value="Lev">
+            </datalist>
+        </p>
+
+        <p>
+            <textarea rows="10" cols="50">Please write about yourself a little. About your dreams, strivings.
+            </textarea>
+        </p>
+        <p><input type="image" src="submit.jpg" alt="Submit" width="50" height="50"></p>
+        <p> Add your homepage, if you have it:
+            <input type="url"></p>
+        <p>Enter your country code, please
+            <input type="text" pattern="[A-Za-z]{3}" title="Three letter country code"></p>
+        <p>What time is it now?
+            <input type="time"></p>
+        <p> 0
+            <input type="range" min="0" max="100">
+            100
+            <p></p>
+        </p>
+        <button id="wssubmit" onclick="wsSubmitClick()">Click</button>
+    </form>
+
+    <script>
+        function wsSubmitClick() {
+            alert(fioPlus());
+        }
+
+        function fioClick() {
+            // fio.innerHTML = firstname.value + ' ' + lastname.value;
+            wssubmit.innerHTML = fioPlus();
+        }
+
+        function fioPlus() {
+            return (firstname.value + ' ' + lastname.value);
+        }
+
+        function showInnerHTML() {
+            showid.innerHTML = document.getElementById(myid.value).value;
+        }
+
+        function showName(event) {
+            showid.innerHTML = document.getElementById(event.target.value).value;
+        }
+
+        function showNames() {
+            showid.innerHTML = '';
+            if (fcheckbox.checked) {
+                showid.innerHTML = firstname.value;
+            }
+            if (lcheckbox.checked) {
+                showid.innerHTML = showid.innerHTML + ' ' + lastname.value;
+            }
+        }
+
+        function showLists(event) {
+            // showlisthere.list = document.getElementById(event.target.value).value;
+            mylist.innerHTML = document.getElementById(event.target.value).innerHTML;
+        }
+    </script>
+
+    <!-- <form id="worksheet">
+        <p>First name:
+            <input type="text" id="first-name"></p>
+        <p>Last name:
+            <input type="text" id="last-name" oninput="fioClick()"></p>
+        <p>FIO:
+            <input type="text" id="fio"></p>
+        <button id="wssubmit" onclick="wsSubmitClick()">Click</button>
+    </form>
+
+    <script>
+        function wsSubmitClick() {
+            alert(document.getElementById('first-name').value + ' ' + document.getElementById('last-name').value);
+        }
+        function fioClick() {
+            document.getElementById('fio').value = document.getElementById('first-name').value + ' ' + document.getElementById('last-name').value;
+        }
+    </script> -->
+</body>
+
+</html>

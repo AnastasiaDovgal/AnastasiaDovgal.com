@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form1</title>
+    <link rel="stylesheet" href="../styleproekt.css">
+</head>
+
+<body style="background: var(--MIDDLE-BLUE-GREEN-turquoise);">
+
+    <form method="post" class="fpi">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:
+            <input type="text" name="firstname" placeholder="Your first name" autofocus required>
+            <br><br>
+            Last name:
+            <input type="text" name="lastname" placeholder="Your last name" required>
+            <br><br>
+            Telephone:
+            <input type="tel" name="usrtel" placeholder="Your phone number">
+            <br><br>
+            E-mail:
+            <input type="email" name="email" autocomplete="off" placeholder="Your E-mail">
+            <br><br>
+            User password:
+            <input type="text" name="lastname" placeholder="Your password" required>
+            <br><br>
+            <input type="submit" value="Submit" class="button">
+            <input type="reset" class="button">
+        </fieldset>
+    </form>
+
+
+    <p style="text-align: center"><button type="button" onclick="alert('Please take the test below!')" class="butupf">Click
+            Me!</button></p>
+
+    <form class="ft">
+        <legend class="test">Test:</legend>
+        <br>
+        <ol>
+            <li class="question">Your gender?</li>
+            <br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female" checked> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+            <br> <br>
+
+            <li class="question">Year of birth?</li>
+            <br>
+            <input type="date" name="bday" min="1920-12-31" max="2010-01-02"><br>
+            <br><br>
+
+            <li class="question">What kind of car do you prefer?</li>
+            <br>
+            <select name="car">
+                <option value="">Volvo</option>
+                <option value="saab" selected>Saab</option>
+                <option value="fiat">Fiat</option>
+            </select>
+            <br><br>
+
+            <li class="question">What do you like more?</li>
+            <br>
+            <input type="checkbox" name="vehicle1" value="Cat" multiple>I like more cats
+            <br>
+            <input type="checkbox" name="vehicle2" value="Dog" multiple>I like more dogs
+            <br><br>
+
+            <li class="question">What browser are you using?</li>
+            <br>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </ol>
+        <br>
+    </form>
+
+    <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)" class="ft">
+        <p>
+            <p>Choose a temperature:</p>
+            -50
+            <input type="range" id="a" name="a" value="100">
+            +50
+            =
+            <output name="x" for="a b"></output>
+        </p>
+        <p>
+            -50
+            <input type="range" id="a" name="a" value="100">
+            +50 +
+            <input type="number" id="b" name="b" value="0">
+            =
+            <output name="x" for="a b"></output>
+        </p>
+
+        <p><textarea name="message" rows="10" cols="50">Please write about yourself a little. About your dreams, strivings.</textarea>
+        </p>
+        <p><input type="image" src="../img/submit.jpg" alt="Submit" width="50" height="50"></p>
+
+        <p> Add your homepage, if you have it:
+            <input type="url" name="homepage"></p>
+
+        <p>Enter your country code, please
+            <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"></p>
+
+        <p>What time is it now?
+            <input type="time" name="usr_time"></p>
+    </form>
+
+    <!-- <input type="number" name="quantity" min="1" max="5"><br>
+    <input type="month" name="bdaymonth"> -->
+
+</body>
+
+</html>

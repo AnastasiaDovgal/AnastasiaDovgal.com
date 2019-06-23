@@ -1,0 +1,78 @@
+.tag {
+    color: red;
+    background-color: #F1F1F1
+}
+
+.tagtable {
+    color: mediumblue;
+    color: brown;
+
+}
+
+.note {
+    background-color: #FFFFCC;
+    padding: 20px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    border: 0px;
+}
+
+.Example {}
+
+.taginEx {}
+
+.Exs5 {
+    background-color: #616161;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 140px;
+    border: 0px solid;
+}
+
+.butt1 {
+    background-color: #4CAF50;
+    font-size: 17px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 100px;
+    border: 0px solid;
+}
+
+.butt2 {
+    background-color: #4CAF50;
+    font-size: 17px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 70px;
+    border: 0px solid;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   
+    text-align: left;
+    vertical-align: top;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
