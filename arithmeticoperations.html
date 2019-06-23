@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arithmetic operations</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Arithmetic operation 1</legend>
+            <p>
+                <input type="number" id="input11" oninput="showSums1()"> +
+                <input type="number" id="input12" oninput="showSums1()"> =
+                <input type="number" id="showsum1" disabled>
+            </p>
+            <p>
+                <input type="number" id="input21" oninput="showSums2()"> -
+                <input type="number" id="input22" oninput="showSums2()"> =
+                <input type="number" id="showsum2" disabled>
+            </p>
+            <p>
+                <input type="number" id="input31" oninput="showSums3()"> /
+                <input type="number" id="input32" oninput="showSums3()"> =
+                <input type="number" id="showsum3" disabled>
+            </p>
+            <p>
+                <input type="number" id="input41" oninput="showSums4()"> *
+                <input type="number" id="input42" oninput="showSums4()"> =
+                <input type="number" id="showsum4" disabled>
+            </p>
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Arithmetic operations 2</legend>
+            <p>
+                <input type="radio" name="namenumber" id="plus" oninput="choicesSums()" checked> +
+                <input type="radio" name="namenumber" id="minus" oninput="choicesSums()"> -
+                <input type="radio" name="namenumber" id="divide" oninput="choicesSums()"> /
+                <input type="radio" name="namenumber" id="multiplication" oninput="choicesSums()"> *
+            </p>
+            <p>
+                1 <input type="number" id="onlyinput1" oninput="choicesSums()">
+                2 <input type="number" id="onlyinput2" oninput="choicesSums()">
+                Result <input type="number" id="showchoice" disabled></p>
+        </fieldset>
+    </form>
+
+    <script>
+        function showSums1() {
+            showsum1.value = parseInt(input11.value) + parseInt(input12.value);
+        }
+
+        function showSums2() {
+            showsum2.value = parseInt(input21.value) - parseInt(input22.value);
+        }
+
+        function showSums3() {
+            showsum3.value = parseInt(input31.value) / parseInt(input32.value);
+        }
+
+        function showSums4() {
+            showsum4.value = parseInt(input41.value) * parseInt(input42.value);
+        }
+
+        function choicesSums() {
+            if (plus.checked) {
+                showchoice.value = parseInt(onlyinput1.value) + parseInt(onlyinput2.value);
+            }
+            if (minus.checked) {
+                showchoice.value = parseInt(onlyinput1.value) - parseInt(onlyinput2.value);
+            }
+            if (divide.checked) {
+                showchoice.value = parseInt(onlyinput1.value) / parseInt(onlyinput2.value);
+            }
+            if (multiplication.checked) {
+                showchoice.value = parseInt(onlyinput1.value) * parseInt(onlyinput2.value);
+            }
+        }
+    </script>
+
+</body>
+
+</html>

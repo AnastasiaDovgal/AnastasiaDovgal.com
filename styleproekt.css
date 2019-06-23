@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    --DARK-JUNGLE-GREEN: #1C2321;
+    --PINK-RASPBERRY-dark-red: #93032E;
+    --LIGHT-FRENCH-BEIGE-powder: #C69F89;
+    --TOPAZ-sand: #FFD275;
+    --FAWN-dark-sand: #E8AE68;
+
+    --ASH-GREY-light-grey: #B1C1C0;
+    --PALE-SPRING-BUD-light-green: #DCEDB9;
+
+    --LIGHT-STEEL-BLUE-light-blue: #A7C6DA;
+    --GRAY-BLU: #8D99AE;
+
+    --MIDDLE-BLUE-GREEN-turquoise: #99D5C9;
+    --LIGHT-STEEL-BLUE-light-blue: #A7C6DA;
+
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--PINK-RASPBERRY-dark-red);
+    color: var(--TOPAZ-sand);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+nav {
+    background-color: var(--TOPAZ-sand);
+    color: var(--DARK-JUNGLE-GREEN);
+    position: sticky;
+    width: 100%;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+    position: -webkit-sticky;
+    /* Safari */
+}
+
+.navli {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: var(--TOPAZ-sand);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--FAWN-dark-sand);
+}
+
+li a:hover:not(.active) {
+    background-color: var(--FAWN-dark-sand);
+}
+
+.active {
+    background-color: var(--PINK-RASPBERRY-dark-red);
+}
+
+.skills {
+    background-color: var(--FAWN-dark-sand);
+    color: var(--DARK-JUNGLE-GREEN);
+    padding: 20px;
+}
+
+.tasks {
+    background-color: var(--TOPAZ-sand);
+    color: var(--DARK-JUNGLE-GREEN);
+    padding: 20px;
+}
+
+.imgschool {
+    width: 200px;
+    height: 200px;
+}
+
+.school {
+    background-color: var(--FAWN-dark-sand);
+    color: var(--DARK-JUNGLE-GREEN);
+    float: left;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    height: 650px;
+}
+
+section {
+    overflow: auto;
+}
+
+aside {
+    background-color: var(--LIGHT-FRENCH-BEIGE-powder);
+    color: var(--DARK-JUNGLE-GREEN);
+    float: right;
+    width: 20%;
+    padding: 21px;
+    text-align: justify;
+    height: auto;
+    height: var(--LIGHT-FRENCH-BEIGE-powder);
+    overflow: auto;
+    height: 650px;
+}
+
+footer {
+    background-color: var(--PINK-RASPBERRY-dark-red);
+    color: var(--FAWN-dark-sand);
+    padding: 3px;
+    text-align: center;
+    clear: both;
+    margin: 0;
+}
+
+caption {
+    margin: 20px;
+    font-size: 30px;
+}
+
+table {
+    margin: 15px;
+    width: 98%;
+    background: var(--ASH-GREY-light-grey);
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--DARK-JUNGLE-GREEN);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    background: var(--LIGHT-STEEL-BLUE-light-blue);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--GRAY-BLU);
+}
+
+.fpi {
+    margin: 50px;
+    text-align: center;
+
+}
+
+.ft {
+    margin: 0px 50px 50px 50px;
+}
+
+.butupf {
+    margin-top: 0;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.test {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.question {
+    font-size: 21px;
+}
+
+fieldset {
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.m0 {
+    margin: 0;
+    text-align: justify;
+}
+
+.pdiv {
+    background-color: var(--TOPAZ-sand);
+    padding: 5px;
+    margin: 0;
+}
+
+.ps {
+    text-align: center;
+    font-size: 20px;
+    color: var(--LIGHT-FRENCH-BEIGE-powder);
+    border: 20px solid var(--PINK-RASPBERRY-dark-red);
+    background-color: var(--DARK-JUNGLE-GREEN);
+    padding: 10px;
+    margin: 5px;
+}
+
+.quote {
+    background-color: var(--TOPAZ-sand);
+    margin: 0px;
+}
+
+.blockquote {
+    background-color: var(--TOPAZ-sand);
+    margin: 23px 20px;
+    padding: 10px;
+    border-left: 10px solid var(--FAWN-dark-sand);
+}
+
+.colors {
+    --my-blue: rgb(95, 255, 234);
+    --my-blue: rgb(8, 7, 7);
+    --my-blue: blueviolet;
+    --my-blue: aqua;
+    --my-blue: rgb(70, 10, 47);
+
+    --CARIBBEAN-GREEN: #03CEA4;
+    --ALABASTER-white: #ECEBE4;
+    --UROBILIN-yellow: #F2AF29;
+    --TUSCANY-powder: #CC998D;
+    --AMARANTH-DEEP-PURPLE: #9B196A;
+
+    --PASTEL-BLUE: #AFC2D5;
+    --AERO-light-blue: #7FBEEB;
+    --DARK-JUNGLE-GREEN: #1C2321;
+    --MIDDLE-GREEN-YELLOW: #A6A15E;
+    --GOLD-FUSION-salat: #84894A;
+}
